@@ -3,8 +3,16 @@
     "type": "name",
     "value": "Schema Gen"
   },
+  "tagline": {
+    "type": "tagline",
+    "value": "Project zod schemas to explicit, fast-types-clean TypeScript, so a package can author its validation in zod without f…"
+  },
   "description": {
     "type": "meta",
-    "value": "Project zod schemas to explicit, fast-types-clean TypeScript (zod → JSON Schema → .d.ts)"
+    "value": "Project zod schemas to explicit, fast-types-clean TypeScript, so a package can author its validation in zod without forfeiting JSR fast-types (zod's inferred types are too generic for JSR's fast analyzer — exporting one caps your package's score).  zod schema ──z. toJSONSchema…"
+  },
+  "keywords": {
+    "type": "body",
+    "value": "ZOD · JSON-SCHEMA · CODEGEN · JSR · FAST-TYPES · TYPESCRIPT"
   }
 }
