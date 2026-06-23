@@ -1,0 +1,10 @@
+{
+  "name": {
+    "type": "name",
+    "value": "Schema Gen"
+  },
+  "description": {
+    "type": "meta",
+    "value": "Project zod schemas to explicit, fast-types-clean TypeScript (zod → JSON Schema → .d.ts)"
+  }
+}
