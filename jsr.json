@@ -1,0 +1,16 @@
+{
+  "name": "@bounded-systems/schema-gen",
+  "version": "0.1.0",
+  "exports": "./src/index.ts",
+  "imports": {
+    "zod": "npm:zod@^4.4.3",
+    "json-schema-to-typescript": "npm:json-schema-to-typescript@^15.0.4"
+  },
+  "publish": {
+    "exclude": [
+      "**/*.test.ts",
+      "**/__tests__/**",
+      "dist/**"
+    ]
+  }
+}
